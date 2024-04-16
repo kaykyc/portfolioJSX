@@ -1,0 +1,33 @@
+
+.lado_esquerdo {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    justify-content: space-around;
+    
+}
+
+.img_kayky {
+    width: 400px;
+    height: 650px;
+    transition: transform 0.3s ease; 
+}
+
+.img_kayky:hover {
+    transform: scale(1.1); 
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links_redes{
+    list-style-type: none;
+}
